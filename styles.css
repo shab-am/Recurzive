@@ -216,9 +216,17 @@ div.line-btm {
 }
 
 .link-icon i {
-    font-size: 2.7rem;
-    font-weight: 300;
+    font-size: 2rem;
+    font-weight: 200;
     cursor: pointer;
+}
+
+.link-icon h4 {
+    color: var(--navfont);
+    font-size: 1.4rem;
+    margin-left: 240px;
+    margin-top: 50px;
+    width: fit-content;
 }
 
 .link .text1 {
@@ -281,20 +289,14 @@ div.line-btm {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin-top: 15px;
     margin-left: -20px;
 }
 
-.second-row2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: -20px;
-}
-
 .choose-card {
-    width: 45%;
-    height: 150px;
+    width: 50%;
+    height: 120px;
     /* background-color: #fff; */
     margin-right: 10px;
     margin-bottom: 10px;
@@ -304,34 +306,27 @@ div.line-btm {
     padding: 20px;
 }
 
-.choose-card::after {
-    content: "";
-    border-radius: 50%;
-    height: 45px;
-    width: 45px;
-    border: 2px solid var(--black);
-    position: absolute;
-    top: 10.1%;
-    left: 5.1%;
-    z-index: 1;
-}
-
-
 .choose-card .link-icon {
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     background-color: var(--greenyellow);
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
     margin-left: 10px;
 }
+
+.choose-card .link-icon i {
+    position: absolute;
+    left: 12%;
+    top: 10%;
+}
+
 
 
 .page3 {
